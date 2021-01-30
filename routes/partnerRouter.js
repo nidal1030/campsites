@@ -1,6 +1,6 @@
 const express = require('express');
 const partnerRouter = express.Router();
-
+console.log('taco')
 partnerRouter.route('/')
 .all((req, res, next) => {
     res.statusCode = 200;
